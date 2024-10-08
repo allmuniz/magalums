@@ -2,8 +2,8 @@ package project.allmuniz.magalums.config;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
-import project.allmuniz.magalums.Repository.ChannelRepository;
-import project.allmuniz.magalums.Repository.StatusRepository;
+import project.allmuniz.magalums.repository.ChannelRepository;
+import project.allmuniz.magalums.repository.StatusRepository;
 import project.allmuniz.magalums.entity.Channel;
 import project.allmuniz.magalums.entity.Status;
 
