@@ -9,24 +9,19 @@
 
 <p align="center">
 
-  <img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-%2304D361">
   <img alt="Language: Java" src="https://img.shields.io/badge/language-java-green">
   <img alt="Version: 1.0" src="https://img.shields.io/badge/version-1.0-yellowgreen">
 
 </p>
 
-[Se inscreva em nosso canal no Youtube!](https://www.youtube.com/@buildrun-tech?sub_confirmation=1)
-
-Para um maior entendimento do código deste repositório, [assista nosso vídeo no Youtube, clique aqui.](https://www.youtube.com/watch?v=af4W9Q4vB1s)
-
 ## Desafio
-- Confira o enunciado completo, [clicando aqui](./problem.md).
-
-## Como interagir com o banco de dados?
-- Utilizamos o [Beekeeper Community](https://github.com/beekeeper-studio/beekeeper-studio/releases/tag/v4.1.13)
+- Contruir uma aplicação que faça parte de uma plataforma de comunicação, com isso precisamos: Receber, Consultar e Cancelar um agendamento de notificação.
 
 ## Como interagir com a API?
-- Utilizamos o [Bruno](https://github.com/usebruno/bruno)
+<h4>Foi criado 3 endpoints para fazer a comunicação com a API</h4>
+- POST: /notifications -> Recebe uma solicitação de agendamento de envio de comunicação.
+- GET: /notifications/{notificationId} -> Consulta o status do agendamento de envio da comunicação.
+- DELETE: /notifications/{notificationId} -> Remove um agendamento de envio de comunicação.
 
 ## :rocket: Tecnologias utilizadas
 
@@ -37,7 +32,3 @@ Para um maior entendimento do código deste repositório, [assista nosso vídeo 
 * Docker
 
 :mag: Baixe o projeto e teste você mesmo na prática.
-
-[Conheça mais sobre o nosso trabalho 😀](https://www.instagram.com/buildrun.tech/)
-
-Developed by Build & Run
