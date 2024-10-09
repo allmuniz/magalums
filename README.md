@@ -18,7 +18,6 @@
 - Contruir uma aplicação que faça parte de uma plataforma de comunicação, com isso precisamos: Receber, Consultar e Cancelar um agendamento de notificação.
 
 ## Como interagir com a API?
-<h4>Foi criado 3 endpoints para fazer a comunicação com a API</h4>
 - POST: /notifications -> Recebe uma solicitação de agendamento de envio de comunicação.
 - GET: /notifications/{notificationId} -> Consulta o status do agendamento de envio da comunicação.
 - DELETE: /notifications/{notificationId} -> Remove um agendamento de envio de comunicação.
