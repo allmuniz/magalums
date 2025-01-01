@@ -28,6 +28,7 @@
 * Spring Boot
 * Spring Data JPA
 * Spring Scheduler
+* JUnit
 * Docker
 
 :mag: Baixe o projeto e teste você mesmo na prática.
